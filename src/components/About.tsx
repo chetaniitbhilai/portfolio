@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div>
             <p className="text-lg text-gray-600 mb-6">
-              I'm a third-year Computer Science student with a passion for software development and problem-solving. My journey in tech started with simple coding projects and has evolved into building full-stack applications.
+              I'm a third-year Computer Science student with a passion for software development and machine learning. My journey in tech started with simple coding projects and has evolved into building full-stack applications using web development and machine learning.
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Currently focusing on web development and artificial intelligence, I'm always eager to learn new technologies and contribute to meaningful projects.

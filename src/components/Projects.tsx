@@ -19,6 +19,47 @@ const Projects = () => {
       github: 'https://github.com/chetaniitbhilai/ML_Project',
       liveDemo: '', // No live demo available
     },
+    {
+      title: 'Digital Mess Application',
+      description: 'An application for digitalising the mess system at various institutes all over India .',
+      tech: ['React Native', 'React', 'MongoDB', 'NodeJS'],
+      image: '/images/digimess.jpg',
+      github: 'https://digimess.in/',
+      liveDemo: 'https://play.google.com/store/apps/details?id=com.ssshospitality.mess_app', // No live demo available
+    },
+    {
+      title: 'Autonomous Line Follower',
+      description: 'Developed a bot that follows a line to solve a maze with PID controller and Arduino for Meshmarise competition.',
+      tech: ['PID', 'ArduinoIDE', 'MIT App Inventor'],
+      image: '/images/meshmarise.jpeg',
+      github: 'https://github.com/chetaniitbhilai/Meshmerize',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'PRESENT - A lightweight cipher',
+      description: 'Authored a term paper focusing on the lightweight cipher PRESENT focusing on its implementation and various cryptanalysis techniques.',
+      tech: ['Python', 'SageMath', 'Gurobi'],
+      image: 'https://blog.1password.com/posts/2022/what-is-public-key-cryptography/header.png',
+      github: 'https://github.com/chetaniitbhilai/Present_Crypto',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Micro Processor',
+      description: 'Created a microprocessor with Verilog HDL with developing support for 2 data transfer, 4 arithmetic, and 4 comparison operations.',
+      tech: ['Verilog', 'Microprocessors'],
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kQFhmQIrKpjYQYYBsp-gZaEgUbwrl9thfw&s',
+      github: 'https://github.com/115ayush/processor',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Nand2Tetris',
+      description: 'Developed an assembler, a virtual machine, a syntax analyser, an Operating system for Jack programming language and a Tic-Tac-Toe game in Jack',
+      tech: ['Python', 'OOPS', 'Jack'],
+      image: 'https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/8454b50a0074.png',
+      github: 'https://github.com/chetaniitbhilai/N2T-Solutions',
+      liveDemo: '', // No live demo available
+    },
+    
   ];
 
   return (

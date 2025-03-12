@@ -2,8 +2,8 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { category: 'Programming', items: ['Python', 'JavaScript', 'C++' , 'C'] },
-    { category: 'Web Technologies', items: ['React', 'Node.js', 'HTML/CSS', 'TypeScript'] },
+    { category: 'Programming', items: ['Python', 'JavaScript', 'C++' , 'C','JAVA'] },
+    { category: 'Web Technologies', items: ['React', 'Node.js', 'HTML/CSS', 'TypeScript','Pytorch'] },
     { category: 'Tools & Platforms', items: ['Git', 'Docker', 'AWS', 'Linux'] },
     { category: 'Databases', items: ['MySQL', 'MongoDB', 'PostgreSQL'] },
   ];
