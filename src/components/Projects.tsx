@@ -4,6 +4,63 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'ManimGen',
+      description: 'An Automatically converts YouTube lecture videos into animated LaTeX visualizations using Manim and Gemini API. Flask-based app that processes videos in 5-minute chunks for clean, educational summaries.',
+      tech: ['Generative AI', 'Gemini', 'Flask', 'AWS'],
+      image: '/images/Manim_Gen.png',
+      github: 'https://github.com/chetaniitbhilai/Manim_Gen',
+      liveDemo: 'https://youtu.be/yGDAZ9Cgaek?si=_KzKbqB02M3mddkX', // No live demo available
+    },
+    {
+      title: 'SCD',
+      description: 'A lightweight and smarter cd command with history retention and fuzzy search working on posix shell.',
+      tech: ['Linux', 'Command line', 'Shell'],
+      image: '/images/scd.png',
+      github: 'https://github.com/chetaniitbhilai/scd',
+      liveDemo: 'https://youtu.be/PwYShmxiRbU?si=QdQwgtq1tbrBa4sE', // No live demo available
+    },
+    {
+      title: 'Corporate Companion',
+      description: 'An LLM-based Chatbot for Employee Assistance with automatic meet scheduling and direct information about company policies, holidays etc.',
+      tech: ['Generative AI', 'Gemini', 'streamlit'],
+      image: '/images/coorporate_companion.png',
+      github: 'https://github.com/chetaniitbhilai/Corporate-Companion',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Workday automator',
+      description: 'Developed a script that automates the filling of work applications for the static fields on Workday.',
+      tech: ['Generative AI', 'Selenium', 'Chrome web driver'],
+      image: '/images/workday_automation.png',
+      github: 'https://github.com/chetaniitbhilai/Workday_Automater',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Double JPEG Compression Detection',
+      description: 'This project focuses on detecting single and double JPEG compression using Discrete Cosine Transform (DCT) analysis and Support Vector Machine (SVM) classification. It aims to identify traces left by compression artifacts to classify image patches accurately.',
+      tech: ['Python', 'Matlab ', 'Pattern detection'],
+      image: '/images/jpeg_det.png',
+      github: 'https://github.com/chetaniitbhilai/Double_JPEG_compression_detection',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Indian Road analysis for optimal warehouse location',
+      description: "This project applies network science techniques to analyze India's road infrastructure and enhance the efficiency of supply chain distribution. By leveraging centrality measures, structural analysis, and optimization strategies, we identify critical nodes and potential improvements to road networks.",
+      tech: ['Python', 'Big data management', 'Network Science'],
+      image: '/images/road_analysis.png',
+      github: 'https://github.com/chetaniitbhilai/Network-Analysis-of-India-s-Road-Network-for-optimising-supply-chain',
+      liveDemo: '', // No live demo available
+    },
+    {
+      title: 'Mlecchita vikalpa',
+      description: 'A JAVA based pocket money application based on an application of a cryptographic device by CDAC called Trustoken.',
+      tech: ['JAVA', 'PyTorch', 'Flask', 'APIs'],
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdSTlLY8-kM39A4VNuRpTMj6WBciDatUzxQ&s',
+      github: 'https://github.com/chetaniitbhilai/Mlecchita-vikalpa',
+      liveDemo: '', // No live demo available
+    },
+
+    {
       title: 'Chat Application',
       description: 'A full-stack web application for chatting with your friends.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
